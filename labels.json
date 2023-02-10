@@ -1,0 +1,539 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "CustomEntityRecognition",
+        "storageInputContainerName": "test",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "test",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "CustomEntityRecognition",
+        "entities": [
+            {
+                "category": "Name"
+            },
+            {
+                "category": "Degree"
+            },
+            {
+                "category": "Acronymn"
+            },
+            {
+                "category": "None"
+            }
+        ],
+        "documents": [
+            {
+                "location": "list1.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 15
+                            },
+                            {
+                                "category": "Degree",
+                                "offset": 17,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 23,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 48,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 52,
+                                "length": 23
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 77,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list10.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 22
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 24,
+                                "length": 13
+                            },
+                            {
+                                "category": "Degree",
+                                "offset": 38,
+                                "length": 2
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 41,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 46,
+                                "length": 19
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 66,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list2.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 25
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 26,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 31,
+                                "length": 22
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 55,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 60,
+                                "length": 17
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 78,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list3.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 17
+                            },
+                            {
+                                "category": "Degree",
+                                "offset": 18,
+                                "length": 2
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 21,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 25,
+                                "length": 11
+                            },
+                            {
+                                "category": "None",
+                                "offset": 37,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 40,
+                                "length": 5
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 46,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 51,
+                                "length": 27
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 80,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list4.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 22
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 24,
+                                "length": 3
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 29,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 33,
+                                "length": 14
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 49,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 54,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 80,
+                                "length": 2
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list5.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 8
+                            },
+                            {
+                                "category": "None",
+                                "offset": 9,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 13,
+                                "length": 15
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 30,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 36,
+                                "length": 22
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 60,
+                                "length": 13
+                            },
+                            {
+                                "category": "Degree",
+                                "offset": 74,
+                                "length": 2
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 77,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list6.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 6
+                            },
+                            {
+                                "category": "None",
+                                "offset": 7,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 10,
+                                "length": 9
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 20,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 25,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 51,
+                                "length": 2
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 55,
+                                "length": 4
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 60,
+                                "length": 7
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 68,
+                                "length": 3
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list7.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Acronymn",
+                                "offset": 0,
+                                "length": 4
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 5,
+                                "length": 7
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 13,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 18,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 44,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 48,
+                                "length": 8
+                            },
+                            {
+                                "category": "None",
+                                "offset": 57,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 61,
+                                "length": 15
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 78,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 84,
+                                "length": 23
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list8.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 21
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 22,
+                                "length": 3
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 27,
+                                "length": 4
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 32,
+                                "length": 7
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 40,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 45,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 70,
+                                "length": 2
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "location": "list9.txt",
+                "language": "en-us",
+                "entities": [
+                    {
+                        "labels": [
+                            {
+                                "category": "Name",
+                                "offset": 0,
+                                "length": 24
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 25,
+                                "length": 2
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 29,
+                                "length": 12
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 42,
+                                "length": 3
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 47,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 51,
+                                "length": 8
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 60,
+                                "length": 3
+                            },
+                            {
+                                "category": "Name",
+                                "offset": 65,
+                                "length": 15
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 81,
+                                "length": 3
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 85,
+                                "length": 3
+                            },
+                            {
+                                "category": "Acronymn",
+                                "offset": 89,
+                                "length": 2
+                            }
+                        ]
+                    }
+                ],
+                "dataset": "Train"
+            }
+        ]
+    }
+}
